@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+  <link rel="stylesheet" href="styles.css" />
+  <title>CSS Technical Documetation Page</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header><h1>CSS Documentation</h1></header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction_CSS">Introduction CSS</a></li>
+        <li><a class="nav-link" href="#HTML_and_CSS">HTML and CSS</a></li>
+        <li><a class="nav-link" href="#Elements_CSS">Elements CSS</a></li>
+        <li><a class="nav-link" href="#Id_CSS">Id CSS</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="Introduction_CSS" class="main-section">
+        <header>Introduction CSS</header>
+        <p>This CSS tutorial contains hundreds of CSS examples.</p>
+        <code>body {
+  background-color: lightblue;
+}</code>
+        <p>Learn from over 300 examples! </p>
+        <ul>
+          <li>We recommend reading this tutorial, in the sequence listed in the menu.</li>
+          <li>If you have a large screen, the menu will always be present on the left.</li>
+          <li>If you have a small screen, open the menu by clicking the top menu sign</li>
+          <li>You are free to modify, save, share, and use them in all your projects.</li>
+          <li>CSS is the language we use to style an HTML document.</li>
+        </ul>
+      </section>
+      <section id="HTML_and_CSS" class="main-section">
+        <header>HTML and CSS</header>
+        <p>CSS describes how HTML elements should be displayed.</p>
+        <code><!DOCTYPE html>
+<html>
+<head>
+<style>
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.large {
+  font-size: 300%;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p>
+<p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+
+</body>
+</html></code>
+<p>Here, all <p> elements on the page will be center-aligned, with a red text color: </p>
+        <code>p {
+  text-align: center;
+  color: red;
+}</code>
+        
+      </section>
+      <section id="Elements_CSS" class="main-section">
+        <header>Elements CSS</header>
+        <p>Here is how the "mystyle.css" file looks:</p>
+        <code>body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}</code>
+        <p>An internal style sheet may be used if one single HTML page has a unique style.</p>
+      </section>
+      <section id="Id_CSS" class="main-section">
+        <header>Id CSS</header>
+        <p>The element selector selects HTML elements based on the element name.</p>
+        <p>Here, all <p> elements on the page will be center-aligned, with a red text color: </p>
+        <code>p {
+  text-align: center;
+  color: red;
+}</code>
+        
+      </section>
+      <section id="Reference" class="main-section">
+        <header>Reference</header>
+        <p>The table below lists all CSS properties and how each property is supported in the different browsers:</p>
+        <p>The number to the right of the browser icon indicates in which browser version the property was first supported.</p>
+      </section>
+    </main>
+  </body>
+</html>

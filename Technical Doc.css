@@ -1,0 +1,39 @@
+#navbar{
+position: fixed; 
+top: -10px;
+left: 0px;
+}
+
+  
+main{
+  position: absolute;
+  margin-left: 250px;
+}
+code{
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+position: relative;
+word-break: normal;
+word-wrap: normal;
+line-height: 2;
+background-color: #f7f7f7;
+padding: 15px;
+margin: 10px;
+border-radius: 5px;
+}
+@media only screen and (min-width: 768px) {
+  #navbar {
+   position: absolute;
+   widht: 50%;
+   top: 40px;
+
+    
+  }
+  main{
+    margin-left: 170px;
+  }
+}
+
+
+
